@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/checkSignalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Network Speed" />
+
+    <TextView
+        android:id="@+id/jioSpeedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Jio Speed: "
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/airtelSpeedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Airtel Speed: "
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/vodafoneSpeedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Vodafone Speed: "
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_green_dark" />
+</LinearLayout>
